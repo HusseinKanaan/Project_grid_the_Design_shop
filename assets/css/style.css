@@ -15,6 +15,11 @@ body {
     font-weight: bold;
 }
 
+.compagny {
+    color: #848484ab;
+    margin-bottom: 5vh;
+}
+
 nav {
     display: grid;
     grid-template-columns: 60% 23% 10% 50px;
@@ -32,15 +37,116 @@ nav a {
 
 a:hover {
     font-weight: 800;
-    color: tomato;
-    text-shadow: 3px 4px #0000003d;
+    opacity: 0.5;
 }
 
-.png1 {
-    background-color: white;
+.backpack-Image {
+    margin: 1vh 8%;
     background-image: url("../img/1.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 50vh;
+    height: 70vh;
+}
+
+main .compagny {
+    color: #848484;
+}
+
+.row-2 {
+    display: grid;
+    grid-template-columns: 1fr 8%;
+    padding: 0 5% 0 8%;
+}
+
+/* -------Page 2--------- */
+
+main {
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 30px;
+    justify-items: center;
+    padding: 0 8%;
+}
+
+
+.card {
+    display: grid;
+
+}
+
+.card>img {
+    width: 100%;
+}
+
+.card img:hover {
+    opacity: 0.2;
+}
+
+.paragraphStyle {
+    margin-top: 5vh;
+}
+
+
+.textImage {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+/* -------Page 3----- */
+
+.bookImage {
+    background-image: url("../img/d7.png");
+}
+
+.bookImage:hover {
+    opacity: 0.2;
+}
+
+/* Page 5 */
+
+.lampImage {
+    background-image: url("../img/h6.png");
+}
+
+.bookImage:hover {
+    opacity: 0.2;
+}
+
+/* Page 7 */
+
+.minImage {
+    background-image: url("../img/c22.png");
+}
+
+.bottleImage:hover {
+    opacity: 0.2;
+}
+
+/* Page 9 */
+.bottleImage {
+    background-image: url("../img/u8.png");
+}
+
+.bottleImage:hover {
+    opacity: 0.2;
+}
+
+/* ---Footer--- */
+.footer {
+    margin-left: 8%;
+    display: grid;
+    grid-template-columns: 33% 1fr 1fr 1fr;
+    grid-template-rows: 50px 2.5vh 2.5vh 100px 1fr;
+}
+
+.p13 {
+    grid-column: 4/5;
+}
+
+
+.bold {
+    font-weight: 800;
 }
